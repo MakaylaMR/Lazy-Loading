@@ -1,20 +1,28 @@
+/*div*/
+
 .container {
   width: 90vw;
+  /*max-width comes from the largest picture available*/
   max-width: 1920px;
 
+  /*centers image*/
   margin:auto;
 }
 
+/*images*/
+
 img {
   display: block;
-  
+
+  /*width: 100% allows the image to consume 100% of the container*/
   width: 100%;
+  /*height: auto preserves the aspect ratio*/
+  height: auto;
 
   margin: 3rem auto;
 
   border: 1px solid black;
 
-  height: auto;
 }
 
 /*look up srcset*/
